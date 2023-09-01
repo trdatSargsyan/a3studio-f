@@ -1,0 +1,36 @@
+  <div class="hr3">
+    <h1 class="title">{{ portofolio.name  }}</h1>
+  </div>
+  <div class="container pt-3">
+    <div class="column-image pe-3 pb-5">
+      <div class="carusel-container">
+        <carousel [noPause]="false">
+          <slide *ngFor="let image of portofolio.images">
+            <img class="card-img-top" [src]="image" alt="Card image cap" />
+          </slide>
+        </carousel>
+      </div>
+    </div>
+
+    <div class="column-text">
+      <h1 class="sous-title">{{ portofolio.name }}</h1>
+      <div class="category-container">
+        <div *ngFor="let category of portofolio.categories" class="category-item">
+          {{ category.name }}
+        </div>
+      </div>
+
+      <h2 class="country">{{ portofolio.country }}</h2>
+      <div>
+        <h2>SHARE THIS</h2>
+        <div class="category-link">
+          <a *ngFor="let l of linkes" href="{{ l.link }}">
+            <i [ngClass]="'fa fa-' + l.name.toLowerCase() + ' fa-2x'"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+

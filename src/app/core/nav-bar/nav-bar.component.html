@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <img
+      src="/assets/images/a3-studio-logo.png"
+      style="max-height: 90px"
+      alt="logo"
+      class="logo"
+      routerLink="/"
+    />
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <a routerLink="" class="nav-link px-2 text-black">Home</a>
+        </li>
+        <li>
+          <a routerLink="services" class="nav-link px-2 text-black">Services</a>
+        </li>
+        <li>
+          <a routerLink="portofolio" class="nav-link px-2 text-black"
+            >Portfolio</a
+          >
+        </li>
+        <li>
+          <a routerLink="categories" class="nav-link px-2 text-black"
+            >Categories</a
+          >
+        </li>
+        <li>
+          <a routerLink="prices" class="nav-link px-2 text-black">Prices</a>
+        </li>
+
+        <li>
+          <a routerLink="about-us" class="nav-link px-2 text-black">About us</a>
+        </li>
+        <li>
+          <a routerLink="contact" class="nav-link px-2 text-black">Contact</a>
+        </li>
+        <li style="padding-left: 2rem; ">
+          <span class="p-input-icon-right">
+            <i class="pi pi-search"></i>
+            <input type="text" pInputText [(ngModel)]="value" />
+          </span>
+        </li>
+        <li style="padding-right: 1rem;">
+          <button class="btn btn-success" >Login</button>
+        </li>
+        <li>
+          <button class="btn btn-danger">Logout</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

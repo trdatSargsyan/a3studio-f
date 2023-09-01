@@ -1,0 +1,152 @@
+<section>
+  <div>
+    <img
+      src="../../../assets/images/over_ons_achtergrond.png"
+      alt="over_ons_achtergrond"
+      style="display: block; width: 100%"
+    />
+  </div>
+  <div class="kind-work pt-4 pb-3">
+    <p>What kind of design work do you need?</p>
+  </div>
+  <div class="float-container">
+    <div style="text-align: center">
+      <div class="float-child">
+        <span class="dot" routerLink="services">
+          <a
+            ><fa-icon [icon]="faPaintBrush" class="fa-4x"></fa-icon
+          ></a>
+        </span>
+        <p>Logo</p>
+      </div>
+      <div class="float-child">
+        <span class="dot" routerLink="portofolio">
+          <a
+            ><fa-icon [icon]="faHome" class="fa-4x"></fa-icon
+          ></a>
+        </span>
+        <p>Corporate identity</p>
+      </div>
+
+      <div class="float-child">
+        <span class="dot">
+          <fa-icon [icon]="faPrint" class="fa-4x"></fa-icon>
+        </span>
+        <p>Printed matter</p>
+      </div>
+      <div class="float-child">
+        <span class="dot" routerLink="services">
+          <fa-icon [icon]="faBullhorn" class="fa-4x"></fa-icon>
+        </span>
+        <p>Promotion</p>
+      </div>
+      <div class="float-child">
+        <span class="dot" routerLink="services">
+          <fa-icon [icon]="faPlay" class="fa-4x"></fa-icon>
+        </span>
+        <p>Web design</p>
+      </div>
+    </div>
+  </div>
+  <!-- <div class="hr1"></div> -->
+  <div class="hr2"></div>
+  <div class="logo-welcome">
+    <fa-icon [icon]="faEye" class="fa-7x"></fa-icon>
+  </div>
+  <div class="div-welcome">
+    <p class="welcome">
+      Welcome to A3 Studio. We are a design and advertising agency that can
+      perfectly guarantee your online and offline communication and PR. In order
+      to fulfill each customer's wishes in a personal way, we always come up
+      with creative solutions that we also implement ourselves. After all, our
+      employees are specialized in the latest design software and communication
+      techniques, which means that our design agency can always offer you the
+      best quality at a cheap price.
+    </p>
+
+    <p class="full-service">Full service</p>
+    <p class="welcome" style="padding-bottom: 2rem">
+      In order to provide you with the best quality, we want to work out every
+      project with the best solutions for your wishes with A3 Studio. In order
+      to improve the communication of your company or organization, we try to
+      radiate this from our design office. You can let us make a website
+      cheaply, but also designing a house style and (free) logo is part of our
+      services. By also showing communication and PR through the appearance, you
+      look professional and reliable to your customers.
+    </p>
+  </div>
+
+  <div class="hr3">
+    <p class="plans">Ready to talk about your plans?</p>
+  </div>
+
+  <div class="container pb-5 pt-5">
+    <div class="row">
+      <div class="col d-flex justify-content-center align-items-center">
+        <div class="column-image">
+          <img
+          src="../../../assets/images/a3studio-home-comp1.png"
+          alt="over_ons_achtergrond"
+          style="display: block; width: 100%"
+        />
+        </div>
+      </div>
+      <div class="col">
+        <div class="column-text">
+          <h1>WHY A3 STUDIO?</h1>
+          <p>
+            Our mission is two-sided. On the one hand we try to take your
+            communication and PR to a higher level with the services of our
+            advertising agency, but on the other hand we also try to show this.
+            After all, a good impression starts with a quality logo, house style and
+            web design and our design agency guarantees that. We design everything
+            you need for a good appearance and this at the best price-quality ratio.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="hr4">
+    <p class="our-plans">OUR PROJECTS</p>
+    <p class="projects-completed">Recent projects we have completed</p>
+      <p-carousel [value]="images" [numVisible]="4" [numScroll]="3" [circular]="false">
+        <ng-template let-product  pTemplate="item">
+          <div  class="border-1 surface-border border-round  text-center ">
+            <div class="mb-3">
+              <img id="caruselList" [src]="product.image" (click)="displayDetails(product.id)" class="w-2 shadow-2"/>
+            </div>
+          </div>
+        </ng-template>
+      </p-carousel >
+  </div>
+
+  <div class="our-customers">
+    <h1 >OUR CUSTOMERS</h1>
+
+
+    <div class="image-row">
+      <div *ngFor="let image of customerImage.slice(0, 4)">
+        <img [src]="image.image" class="image" />
+      </div>
+    </div>
+    <div class="image-row">
+      <div *ngFor="let image of customerImage.slice(4, 8)">
+        <img [src]="image.image" class="image" />
+      </div>
+    </div>
+  </div>
+
+
+
+
+</section>
+<div class="bottombond" style="background-color: rgb(16, 43, 65);">
+  <div class="container" >
+    <div class="button-position">
+      <p>Ready to talk about your plans? </p>
+      <a routerLink="contact" class="btn">Naturally</a>
+    </div>
+  </div>
+</div>

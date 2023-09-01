@@ -1,0 +1,91 @@
+.container-logo,
+.container-house,
+.container-print,
+.container-promotie,
+.container-website {
+  display: flex;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+
+.slide1 img {
+  height: 150px;
+  width: 100%;
+}
+
+.image-section {
+  flex: 30%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+.text-section-logo,
+.text-section-house,
+.text-section-print,
+.text-section-promotie,
+.text-section-website {
+  flex: 70%;
+  padding: 20px;
+  /* Add padding or styling as needed */
+  background-color:#f2f2f2;
+}
+
+.text-section-house,
+.text-section-print,
+.text-section-website {
+  background-color: #f2f2f2;
+}
+
+.bottombond {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 40px solid rgb(16, 43, 65);
+  border-radius: 0px;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+div.bottombond p {
+  color: white;
+  font-weight: 500;
+  background-color: rgb(16, 43, 65);
+  margin: 0;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+div.bottombond button{
+  margin: 0 0 0 0;
+}
+
+.container button {
+  background-color: rgb(233, 107, 22);
+  color: white;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+}
+.container button:hover {
+  background-color: #F68337; /* Change the background color on hover */
+}
+
+.button-position {
+  display: flex;
+  justify-content: space-between;
+}
+
+// .button-position button {
+//   justify-content: flex-end;
+// }

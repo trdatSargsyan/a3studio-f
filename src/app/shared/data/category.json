@@ -1,0 +1,94 @@
+[
+  {
+    "id": 1,
+    "name": "All"
+  },
+  {
+    "id": 2,
+    "name": "Armenia"
+  },
+  {
+    "id": 3,
+    "name": "Lettering"
+  },
+  {
+    "id": 4,
+    "name": "Belgium"
+  },
+  {
+    "id": 5,
+    "name": "Billboard"
+  },
+  {
+    "id": 6,
+    "name": "Book"
+  },
+  {
+    "id": 7,
+    "name": "Brochures"
+  },
+  {
+    "id": 8,
+    "name": "Design"
+  },
+  {
+    "id": 9,
+    "name": "Printed Matter"
+  },
+  {
+    "id": 10,
+    "name": "England"
+  },
+  {
+    "id": 11,
+    "name": "Germany"
+  },
+  {
+    "id": 12,
+    "name": "Corporate Identity"
+  },
+  {
+    "id": 13,
+    "name": "Libya"
+  },
+  {
+    "id": 14,
+    "name": "Logo"
+  },
+  {
+    "id": 15,
+    "name": "Mobile"
+  },
+  {
+    "id": 16,
+    "name": "Netherlands"
+  },
+  {
+    "id": 17,
+    "name": "Netherlands antilles"
+  },
+  {
+    "id": 18,
+    "name": "Slider"
+  },
+  {
+    "id": 19,
+    "name": "Social media"
+  },
+  {
+    "id": 20,
+    "name": "USA"
+  },
+  {
+    "id": 21,
+    "name": "WEB"
+  },
+  {
+    "id": 22,
+    "name": "Website"
+  },
+  {
+    "id": 23,
+    "name": "Word template"
+  }
+]

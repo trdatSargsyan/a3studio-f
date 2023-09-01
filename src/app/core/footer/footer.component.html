@@ -1,0 +1,29 @@
+<div class="container-1">
+  <div class="container">
+    <div class="section-1">
+      <div class="logo">
+        <img src="/assets/images/a3-studio-logo.png" style="max-height: 90px;" alt="logo" class="logo" routerLink="/">
+      </div>
+      <div class="category-item">
+        <a *ngFor="let l of linkes" href="{{ l.link }}">
+          <i [ngClass]="'fa fa-' + l.name.toLowerCase() + ' fa-2x'"></i>
+        </a>
+      </div>
+    </div>
+    <div class="section-2">
+      <h3>Address</h3>
+      <p>Varenstraat 63 <br/>
+      2300 Turnhout <br/>
+      Belgium</p>
+    </div>
+    <div class="section-3">
+      <h3>Contact</h3>
+      <p>Tel: +32 (0) 14 73 88 63<br/>
+      Tel: +31 (0) 6 24 10 49 49<br/>
+      Info@a3studio.nl</p>
+
+
+    </div>
+  </div>
+
+</div>

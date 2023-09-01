@@ -1,0 +1,213 @@
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+.kind-work {
+  font-size: clamp(1rem, 5vmin, 3rem);
+  font-family: sans-serif;
+  color: hsl(0, 0%, 3%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+fa-icon {
+  color: white;
+}
+
+
+section {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  //background: hsl(0, 0%, 100%);
+}
+
+.dot {
+  height: 150px;
+  width: 150px;
+  background-color: rgb(233, 107, 22);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dot:hover {
+  background-color: rgb(16, 45, 65);
+}
+
+.float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+}
+.float-child {
+  width: 20%;
+  float: left;
+  padding: 30px;
+  //border: 2px solid red;
+}
+.float-child p {
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+div.hr2 {
+  margin: 0;
+  padding: 0;
+  border: 40px solid rgb(18, 50, 86);
+  border-radius: 0px;
+  width: 100%;
+}
+
+
+.div-welcome {
+  padding-top: 25px;
+  margin: auto;
+  width: 60%;
+  //border: 3px solid #73AD21;
+}
+
+.welcome, .full-service, .column-text {
+  text-align: center;
+  font-size: 1.5vw;
+  line-height: 1.6;
+  font-family: sans-serif;
+  color: hsl(0, 0%, 3%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.logo-welcome {
+  padding-top: 10px;
+}
+
+.full-service {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 2srem;
+  padding-top: 2rem;
+}
+
+div.hr3 {
+  margin: 0;
+  padding: 0;
+  border: 40px solid #FFA500;
+  border-radius: 0px;
+  width: 100%;
+  background-color: #FFA500;
+}
+
+p.plans {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.column-image{
+  padding-top: 2rem;
+  width: 50%;
+
+}
+
+
+.column-text {
+  padding-right: 15%;
+}
+
+div.hr4 {
+  margin: 0;
+  padding: 0;
+  border: 40px solid #F0F8FF;
+  border-radius: 0px;
+  width: 100%;
+  background-color: #F0F8FF;
+}
+
+p.our-plans {
+  color: #FFA500;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+p.projects-completed {
+  color: #FFA500;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+.mb-3 {
+  margin: 0;
+  padding: 0;
+}
+
+#caruselList {
+  height: 120px;
+  width: 90;
+  border: 2px solid orange;
+}
+
+
+.bottombond {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: 40px solid rgb(16, 43, 65);
+  border-radius: 0px;
+  width: 100%;
+  //margin-bottom: 2rem;
+}
+
+div.bottombond p {
+  color: white;
+  font-weight: 500;
+  background-color: rgb(16, 43, 65);
+  margin: 0;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+div.bottombond a{
+  margin: 0 0 0 0;
+}
+
+.container a {
+  background-color: rgb(233, 107, 22);
+  color: white;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+}
+.container a:hover {
+  background-color: #F68337; /* Change the background color on hover */
+}
+
+.button-position {
+  display: flex;
+  justify-content: space-between;
+}
+.our-customers{
+  padding-top: 5rem;
+  margin-bottom: 3rem;
+
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  width: 90%;
+  margin-bottom: 10px;
+}

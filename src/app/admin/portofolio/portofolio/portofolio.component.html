@@ -1,0 +1,30 @@
+<!-- <app-portofolio-detail></app-portofolio-detail> -->
+
+<section>
+  <div class="hr1" >
+    <p>Portofolio</p>
+    <button class="btn" (click)="addProject()">Add</button>
+  </div>
+  <div class="category-container">
+    <div *ngFor="let i of category" class="category-item" (click)="filterByCategory(i.id)">
+      <button class="btn btn-outline-secondary btn-sm">{{ i.name }}</button>
+    </div>
+  </div>
+
+  <div class="card-row" >
+    <div class="card" (click)="displayDetails(p.id)"  *ngFor="let p of portofolios">
+      <carousel>
+        <slide *ngFor="let image of p.images">
+          <img class="card-img-top" [src]="image" alt="Card image cap" />
+        </slide>
+      </carousel>
+      <div class="card-body">
+        <h5 class="card-title">{{ p.name }}</h5>
+        <div class="card-categories">
+          <p class="card-text" *ngFor="let c of p.categories" >{{ c.name }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,73 @@
+<div class="container">
+  <div class="row">
+    <div class="col d-flex flex-column align-items-center">
+      <div class="row">
+        <div class="col-address">
+          <h1>A3Studio address and contact</h1>
+          <h3>Varenstraat 63,<br />2300 Turnhout</h3>
+          <h2>Telephone</h2>
+          <h3>+32 (0)14 73 88 63 <br />+31 (6) 24 10 49 49</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row">
+          <div class="col">
+            <img
+            src="../../../assets/images/contact1.jpeg"
+            alt="contact"
+            style="display: block; width: 100%"
+          />
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+
+    <div class="col">
+      <h1>Information or curious ?</h1>
+      <form (submit)="saveChanges()">
+        <div class="form-floating mb-3">
+          <input
+            formControlName="name"
+            class="form-control"
+            id="floatingInput"
+            placeholder="Name"
+          />
+          <label for="floatingInput">Name</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            formControlName="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="Email"
+          />
+          <label for="floatingInput">E-mail</label>
+        </div>
+        <div class="form-floating mb-3">
+          <input
+            formControlName="subject"
+            class="form-control"
+            id="floatingInput"
+            placeholder="Subject"
+          />
+          <label for="floatingInput">Subject</label>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea
+            class="form-control"
+            id="textarea"
+            rows="3"
+          ></textarea>
+          <label for="floatingInput">Message</label>
+        </div>
+        <div>
+          <button class="btn btn-success">Send</button>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+</div>

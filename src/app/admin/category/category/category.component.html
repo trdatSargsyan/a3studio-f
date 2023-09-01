@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="head">
+    <h1>Categories</h1>
+    <a routerLink="create" class="btn btn-primary">Add</a>
+  </div>
+
+  <div class="card">
+    <p-table
+      [value]="category"
+      [paginator]="true"
+      [rows]="5"
+      [showCurrentPageReport]="true"
+      [tableStyle]="{ 'min-width': '50rem' }"
+      currentPageReportTemplate="Showing {first} to {last} of {totalRecords} entries"
+      [rowsPerPageOptions]="[5,10, 25, 50]"
+    >
+      <ng-template pTemplate="header">
+        <tr>
+          <th style="width: 15%">Id</th>
+          <th style="width: 25%">Name</th>
+          <th style="width: 25%"></th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-category>
+        <tr>
+          <td>{{ category.id }}</td>
+          <td>{{ category.name }}</td>
+          <td><button class="btn btn-primary" (click)="editCategory(category.id)" >Edit</button>
+          <button class="btn btn-danger" (click)="deleteCategory(category.id)" >Delete</button></td>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="paginatorleft">
+        <p-button
+          type="button"
+          icon="pi pi-plus"
+          styleClass="p-button-text"
+        ></p-button>
+      </ng-template>
+      <ng-template pTemplate="paginatorright">
+        <p-button
+          type="button"
+          icon="pi pi-cloud"
+          styleClass="p-button-text"
+        ></p-button>
+      </ng-template>
+    </p-table>
+  </div>
+</div>

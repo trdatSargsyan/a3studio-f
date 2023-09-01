@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+footer {
+  background-color: rgb(16, 43, 65);
+  padding: 20px 0;
+
+  /* Apply flexbox properties for centering */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h3 {
+    color: white;
+    margin: 0;
+  }
+}
+
+.centered-text {
+  text-align: center;
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "id":1,
+    "image": "assets/customers/charisma_fashion.jpg"
+  },
+
+  {
+    "id":2,
+    "image": "assets/customers/dutch_angust.jpg"
+  },
+
+  {
+    "id":3,
+    "image": "assets/customers/green_crouwd.jpg"
+  },
+
+  {
+    "id":4,
+    "image": "assets/customers/kelly_Visser.jpg"
+  },
+
+  {
+    "id":5,
+    "image": "assets/customers/orange_parking_schiphol.jpg"
+  },
+
+  {
+    "id":6,
+    "image": "assets/customers/postnl.jpg"
+  },
+
+  {
+    "id":7,
+    "image": "assets/customers/project24.jpg"
+  },
+
+  {
+    "id":8,
+    "image": "assets/customers/vve_beheer_plus.jpg"
+  }
+]

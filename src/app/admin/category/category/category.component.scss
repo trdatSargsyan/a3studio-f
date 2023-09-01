@@ -1,0 +1,31 @@
+.container {
+  padding-bottom: 5rem ;
+  padding-top: 2rem;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.head h1 {
+  margin-right: 2rem;
+}
+
+
+a{
+    width: 150px;
+    height: 40px;
+    margin-bottom: 1rem;
+  }
+
+
+.btn.btn-primary {
+  margin-right: 2rem;
+  width: 90px;
+}
+.btn.btn-danger {
+  width: 90px;
+}
+

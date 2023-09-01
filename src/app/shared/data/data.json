@@ -1,0 +1,198 @@
+
+[  {
+    "id": 1,
+    "name": "B-Mar",
+    "categories": [
+      {
+        "id": 4,
+        "name": "Belgium"
+      },
+      {
+        "id": 7,
+        "name": "Brochures"
+      },
+      {
+        "id": 8,
+        "name": "Design"
+      },
+      {
+        "id": 9,
+        "name": "Printing"
+      },
+      {
+        "id": 10,
+        "name": "England"
+      },
+      {
+        "id": 12,
+        "name": "Corporate identity"
+      },
+      {
+        "id": 14,
+        "name": "Logo"
+      },
+      {
+        "id": 21,
+        "name": "Web"
+      },
+      {
+        "id": 22,
+        "name": "Website"
+      }
+    ],
+
+    "projectDate": "",
+    "country": "Belguim",
+    "images": [
+      "assets/b-mar/b-mar-huisstijl.png",
+      "assets/b-mar/b-mar-logo.png",
+      "assets/b-mar/B-mar-rond-4.png",
+      "assets/b-mar/b-mar-visitekaartje.png"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Milanski capital",
+    "categories": [
+      {
+        "id": 16,
+        "name": "Nederlands"
+      },
+      {
+        "id": 14,
+        "name": "Logo"
+      }
+    ],
+
+    "projectDate": "",
+    "country": "Nederlands",
+    "images": [
+      "assets/milanski-capital/Jaskulski_ICT_logo_black.png",
+      "assets/milanski-capital/Jaskulski_ICT_logo_geel.png",
+      "assets/milanski-capital/Jaskulski_ICT_logo_zwart.png",
+      "assets/milanski-capital/Jaskulski_ICT_logo.png"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "FONS CONSULTING GMBH",
+    "categories": [
+      {
+        "id": 11,
+        "name": "Germany"
+      },
+      {
+        "id": 14,
+        "name": "Logo"
+      }
+      ,
+      {
+        "id": 8,
+        "name": "Design"
+      }
+    ],
+
+    "projectDate": "",
+    "country": "Nederlands",
+    "images": [
+      "assets/fons/fons_logo_.png",
+      "assets/fons/fons_logo_businesscard.jpg",
+      "assets/fons/fons_logo_paper.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "MESTA WEAR",
+    "categories": [
+      {
+        "id": 8,
+        "name": "Design"
+      },
+      {
+        "id": 9,
+        "name": "Printed Matter"
+      },
+      {
+        "id": 12,
+        "name": "Corporate Identity"
+      },
+      {
+        "id": 14,
+        "name": "Logo"
+      },
+      {
+        "id": 16,
+        "name": "Netherlands"
+      },
+      {
+        "id": 21,
+        "name": "WEB"
+      },
+      {
+        "id": 22,
+        "name": "Website"
+      }
+    ],
+
+    "projectDate": "01/01/2016",
+    "country": "Nederlands",
+    "images": [
+      "assets/mesta-ware/logo-mockup-1.jpg",
+      "assets/mesta-ware/Mesta_logo_icon.png",
+      "assets/mesta-ware/mesta_logo.png",
+      "assets/mesta-ware/Mesta_website.jpg",
+      "assets/mesta-ware/MESTA-Wear-logo.png",
+      "assets/mesta-ware/mesta.jpeg",
+      "assets/mesta-ware/visitekaartje_achter.png",
+      "assets/mesta-ware/visitekaartje.jpg",
+      "assets/mesta-ware/wood_logo.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "VVE Beheer Plus",
+    "categories": [
+      {
+        "id": 5,
+        "name": "Billboard"
+      },
+      {
+        "id": 8,
+        "name": "Design"
+      },
+      {
+        "id": 12,
+        "name": "Corporate Identity"
+      },
+      {
+        "id": 14,
+        "name": "Logo"
+      },
+      {
+        "id": 16,
+        "name": "Netherlands"
+      },
+      {
+        "id": 21,
+        "name": "WEB"
+      },
+      {
+        "id": 22,
+        "name": "Website"
+      }
+    ],
+
+    "projectDate": "01/01/2010",
+    "country": "Nederlands",
+    "images": [
+      "assets/vve/logo-uv-spot.png",
+      "assets/vve/postzegel.jpg",
+      "assets/vve/vve-beheer-gebouw-flash-banner.png",
+      "assets/vve/vve-beheer-website.png",
+      "assets/vve/vve-beherplus.png",
+      "assets/vve/vve-beherplus-visitekartje.jpg",
+      "assets/vve/vve-beherplus-huisstijl.png",
+      "assets/vve/VvE-logo.png"
+    ]
+  }
+]

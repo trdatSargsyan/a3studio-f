@@ -1,0 +1,29 @@
+.services { padding-bottom: 5rem;}
+
+.image-container{
+  position: relative;
+  display: inline-block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.text-overlay h2 {
+  font-size: 54px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #fff;
+  background-color: orange;
+
+}
+
+
+
